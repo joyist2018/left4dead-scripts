@@ -1,7 +1,7 @@
 #!/bin/env bash
 
 name=${0##*/}
-CFG_DIR="$HOME/.local/share/Steam/SteamApps/common/Left 4 Dead 2/left4dead2/cfg/"
+CFG_DIR="$HOME/.local/share/Steam/SteamApps/common/Left 4 Dead 2/left4dead2/cfg"
 
 function print_help() {
     echo "usage: $name [options]
