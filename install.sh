@@ -49,9 +49,9 @@ for cfg in $(ls); do
             echo "Would set $cfg to $target"
         else
             # Make a .bak of a file or dir
-            if [ ! -h $target ]; then
-                if [ -d $target -o -f $target ]; then
-                    mv $target ${target}.bak
+            if [ ! -h "$target" ]; then
+                if [ -d "$target" -o -f "$target" ]; then
+                    mv "$target" "${target}.bak"
                 fi
             fi
 
